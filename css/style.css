@@ -1,0 +1,140 @@
+ body{
+    width: 100%;
+}
+
+
+/* effet image zoom  sur les logos 1er page*/
+.zoom div img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom div:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+/* Animation LA BASE 1er page */
+
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+:root {
+    --white:#f1f1f1
+}
+.text{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    color: var(--white);
+  /*   background-color: black; */
+    background-image: url(../img/coucou.JPG);
+    background-size: cover;
+    background-position-y: 10% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+/* start template */
+
+/* header */
+.header{
+    background-image: url(../img/bar.jpg);
+    background-size: cover;
+    background-position-y: 70%;
+    height:300px;
+  }
+
+
+
+/* Footer */
+.footer{
+    background-color: #343a40;
+    
+    
+}
+
+.afooter{
+    text-decoration: none; 
+    color: gray;
+    font-size: 80%;
+}
+.afooter:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.Finfo{
+    color: white;
+    font-size: 80%;
+}
+
+/* END template */
+
+/* Main */
+ 
+    
+ 
+
+/* Page accueil */
+
+
+/* Cards Bar Club */
+.bar{
+    background-color: fff;
+    color: #343a40;
+    border-radius: 5px;
+    box-shadow: 8px 8px 12px #aaa;    
+}
+
+.club{
+    background-color: fff;
+    color: #343a40;
+    border-radius: 5px;
+    box-shadow: 8px 8px 12px #aaa;
+}
+/* END Cards Bar Club */
+
+
+/* Cards bouteille */
+.tarif{
+margin-top: 15px;
+font-size:9px;
+}
+
+.cardshadow{
+    box-shadow: 2px 2px 6px #aaa;
+}
+/* END Cards bouteille */
+
+/* END Page accueil */
+
+/* START page infos/acces */
+
+
+/* START page infos/acces */
+#txt{
+    animation-iteration-count: 65;
+    animation-duration: -20s;
+    animation-delay: 3s;
+}
+#info{
+    animation-iteration-count: 1;
+    animation-duration: 1.5s;
+  
+}
+
+#bouton{
+    animation-iteration-count: infinite;
+    animation-duration: 5S;
+    /* animation-delay: 3s; */
+}
+
+#privat{
+    animation-duration: 4s;
+}
